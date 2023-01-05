@@ -148,3 +148,30 @@ section{
 .skill_description{
     color: #757575;
 }
+.resume_content{
+    display: flex;
+    gap: 24px;
+}
+.resume_item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume_title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color:#474747;
+    margin-bottom: 10px;
+}
+.sub_titiel{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
