@@ -72,3 +72,49 @@ nav ul li a{
     font-weight: 400;
     margin-bottom: 30px;
 }
+
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+.about{
+    padding: 130px 160px;
+    background: #FFF8F3;
+    text-align: center;
+    border-radius: 10px;
+}
+.section_title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 50px;
+}
+.section_description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+ 
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.info_title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;;
+}
+.info_description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
