@@ -7,6 +7,7 @@
     color: #FD6E0A; 
 }
 
+
 .btn_primary{
     font-size: 20px;
     font-weight: 700;
@@ -16,7 +17,10 @@
     background: #FD6E0A;
     border-radius: 5px;
 }
-
+.btn_contianer{
+    text-align: center;
+    width: 100%;
+}
 header{
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -148,6 +152,9 @@ section{
 .skill_description{
     color: #757575;
 }
+.resume{
+    margin-bottom: 120px;
+}
 .resume_content{
     display: flex;
     gap: 24px;
@@ -174,4 +181,10 @@ section{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
+}
+/* footer styles here */
+
+.footer_container{
+    display: flex;
+    gap: 20px;
 }
