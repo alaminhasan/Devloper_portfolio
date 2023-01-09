@@ -183,8 +183,38 @@ section{
     margin-bottom: 20px;
 }
 /* footer styles here */
-
+footer{
+    width: 100%;
+    background: #FEF9F5;
+}
 .footer_container{
+    max-width: 1140px;
+    display: flex;
+    gap: 50px;
+    padding: 100px 0px;
+    background: #FEF9F5;
+    margin: 0 auto;
+}
+.footer_left h2, .footer_left p{
+    margin-bottom: 20px;
+}
+.footer_right{
     display: flex;
     gap: 20px;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+input, textarea{
+    padding: 20px;
+    border: none;
+    font-weight: 400;
+    color: grey;
+    width: 100%;
+}
+.footer_left{
+    width: 50%;
+}
+.icon_container img{
+    margin-right: 15px;
 }
